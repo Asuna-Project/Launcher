@@ -2,7 +2,6 @@ import org.junit.jupiter.api.Test;
 import com.asuna.launcher.utils.Downloader;
 
 import java.io.File;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
