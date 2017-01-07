@@ -1,0 +1,99 @@
+.root{
+    -fx-background-color: #404040;
+    -icons-color: rgb(105, 140, 171);
+}
+
+.button {
+    -fx-border-radius: 2px;
+    -fx-background-color: #333;
+    -fx-border-width: 1px;
+    -fx-border-color: #111;
+    -fx-text-fill: white;
+    -fx-font-size: 10pt;
+}
+
+.headlineBox {
+    -fx-background-color: #587793;
+    -fx-border-color: #222;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0px;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+}
+
+.headlineText {
+    -fx-text-fill: white;
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+
+.check-box {
+    -fx-text-fill: white;
+}
+
+.column-header-background{
+    -fx-background-color: #587793;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view, .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-table-cell-border-color: black;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #404040;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #303030;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.red-outline{
+    -fx-border-color: red;
+    -fx-prompt-text-fill: red;
+}
+
+.errorLabel{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 10pt;
+}
+
+.lastCopiedFrom{
+    -fx-background-color: #395167;
+}
+
+.icons{
+    -fx-font-family: FontAwesome;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: derive(-icons-color, -0%);
+}
+
+.icons:hover{
+    -icons-color: rgb(105, 140, 171);
+}
